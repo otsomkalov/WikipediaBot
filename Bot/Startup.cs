@@ -41,6 +41,7 @@ namespace Bot
 
                     return new Wikipedia(settings.Language);
                 })
+                .AddSingleton<CultureMiddleware>()
                 .AddScoped<MessageService>()
                 .AddScoped<InlineQueryService>();
 
