@@ -21,4 +21,10 @@
     <data name="Welcome" xml:space="preserve">
         <value>С помощью этого бота можно искать и делиться статьями с сайта Wikipedia. Он работает в любом чате, просто напишите @ruwiki_bot в поле для сообщения</value>
     </data>
+    <data name="SearchArticles" xml:space="preserve">
+        <value>🔍 Найти статью</value>
+    </data>
+    <data name="ShareArticles" xml:space="preserve">
+        <value>🔗 Найти и поделиться статьёй</value>
+    </data>
 </root>

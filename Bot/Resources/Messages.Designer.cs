@@ -61,6 +61,24 @@ namespace Bot.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 🔍 Search articles.
+        /// </summary>
+        internal static string SearchArticles {
+            get {
+                return ResourceManager.GetString("SearchArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 🔗 Find and share articles.
+        /// </summary>
+        internal static string ShareArticles {
+            get {
+                return ResourceManager.GetString("ShareArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This bot allows you search &amp; share articles from Wikipedia. It works on every dialog, just type @enwiki_bot in message input.
         /// </summary>
         internal static string Welcome {

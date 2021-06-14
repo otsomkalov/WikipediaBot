@@ -22,7 +22,7 @@ namespace Bot.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Messages_ru {
+    internal class Messages_ru {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -57,6 +57,24 @@ namespace Bot.Resources {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 🔍 Найти статью.
+        /// </summary>
+        internal static string SearchArticles {
+            get {
+                return ResourceManager.GetString("SearchArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 🔗 Найти и поделиться статьёй.
+        /// </summary>
+        internal static string ShareArticles {
+            get {
+                return ResourceManager.GetString("ShareArticles", resourceCulture);
             }
         }
         

@@ -25,7 +25,7 @@ namespace Bot.Services
                 await _bot.SendTextMessageAsync(
                     new(message.From.Id),
                     _localizer[ResourcesNames.Welcome],
-                    replyMarkup: InlineKeyboardHelpers.GetStartKeyboardMarkup());
+                    replyMarkup: InlineKeyboardHelpers.GetStartKeyboardMarkup(_localizer));
             }
         }
     }

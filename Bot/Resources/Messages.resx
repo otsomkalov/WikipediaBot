@@ -21,4 +21,10 @@
     <data name="Welcome" xml:space="preserve">
         <value>This bot allows you search &amp; share articles from Wikipedia. It works on every dialog, just type @enwiki_bot in message input</value>
     </data>
+    <data name="SearchArticles" xml:space="preserve">
+        <value>🔍 Search articles</value>
+    </data>
+    <data name="ShareArticles" xml:space="preserve">
+        <value>🔗 Find and share articles</value>
+    </data>
 </root>
